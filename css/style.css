@@ -1,0 +1,533 @@
+/* --------- import fonts --------------- */
+@import url("https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
+ 2) font-family: 'Poppins', sans-serif;
+ ----------------------------------------*****/
+
+/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
+:root
+{
+  --fristcolor:#0c0f38;
+  --secondcolor:#fff;
+  --hovercolor:#8308eb;
+  --navcolor:#fdd430;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+/* ======================start section-main========================= */
+/* section-1 */
+.main-section {
+  width: 100%;
+  background-color:var(--fristcolor);
+  height:100vh
+}
+/* container-1 */
+.container-1,
+.container-2 {
+  padding: 20px 0;
+  width: 65%;
+  margin: auto;
+}
+@media (max-width: 1600px) {
+  .container-1 {
+    padding: 20px 0;
+    width: 80%;
+    margin: auto;
+  }
+}
+@media (max-width: 1000px) {
+  .container-1 {
+    padding: 20px 0;
+    width: 100%;
+    margin: auto;
+  }
+}
+nav .logo {
+  padding-top: 10px;
+  display: inline;
+}
+nav .logo img {
+  padding-top: 25px;
+  width: 147px;
+}
+nav ul {
+  list-style: none;
+  float: right;
+  padding-top: 25px;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 40px;
+}
+  nav ul li .activ {
+  color: var(--navcolor);
+}
+nav ul li a:hover {
+  color: var(--navcolor);
+}
+nav ul li a {
+  text-decoration: none;
+  color: var(--secondcolor);
+  font-size: 14px;
+}
+/* ================================= End section-main ============================ */
+/* ================================= Start Section-1  =============================*/
+.section-1 {
+  width: 100%;
+}
+.section-1 div:first-child {
+  width: 38%;
+  float: left;
+  margin-right: 4%;
+}
+.image-server {
+  width: 57%;
+  float: left;
+}
+.section-1 .image-server img {
+  width: 98%;
+  height: 100%;
+}
+.section-1 {
+  margin-top: 40px;
+}
+.section-1 .power-text h2 {
+  color:var(--secondcolor);
+  font-size: 52px;
+  line-height: 61px;
+  padding-bottom: 25px;
+}
+.section-1 .power-text h3 {
+  font-size: 40px;
+  color: var(--navcolor);
+  line-height: 35px;
+}
+.section-1 .power-text p {
+  color:var(--secondcolor);
+  font-size: 17px;
+  line-height: 28px;
+  padding: 40px 0;
+}
+.section-1 .power-text a {
+  text-decoration: none;
+  width: 100px;
+  background-color: var(--secondcolor);
+  font-size: 16px;
+  color: #000;
+  padding: 10px 0px;
+  width: 100%;
+  max-width: 190px;
+  text-align: center;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.section-1 .power-text a:hover {
+  width: 100px;
+  background-color: #000;
+  font-size: 16px;
+  color: var(--secondcolor);
+  padding: 10px 0px;
+  width: 100%;
+  max-width: 190px;
+  text-align: center;
+  display: inline-block;
+  text-transform: uppercase;
+}
+/* ====================== End section-1  ======================== */
+/* ======================start section-2 ========================= */
+.section-2 {
+  width: 100%;
+  background-color: var(--secondcolor);
+
+}
+.container-2 {
+  padding: 90px 0 ;
+  text-align: center;
+  height:calc(100vh + 70px);
+}
+@media (max-width: 1600px) {
+  .container-2 {
+    padding: 20px 0;
+    width: 90%;
+    margin: auto;
+    height:calc(100vh + 220px);
+  }
+  
+}
+.container-2 h2 {
+  padding: 0 0 60px;
+  font-size: 45px;
+}
+.container-2 p {
+  padding: 40px 50px;
+  font-size: 17px;
+  line-height: 1.8;
+  color:black;
+}
+.container-2 a {
+  text-decoration: none;
+  width: 100px;
+  background-color: #000;
+  font-size: 16px;
+  color: var(--secondcolor);
+  padding: 10px 0px;
+  width: 100%;
+  max-width: 190px;
+  text-align: center;
+  display: inline-block;
+  text-transform: uppercase;
+  
+}
+.container-2 a:hover {
+  width: 100px;
+  background-color: var(--fristcolor);
+  font-size: 16px;
+  color: var(--secondcolor);
+  padding: 10px 0px;
+  width: 100%;
+  max-width: 190px;
+  text-align: center;
+  display: inline-block;
+  text-transform: uppercase;
+}
+/* ========================== End Section-2 ============================ */
+/* ============================= Start Section-3 =================================== */
+.section-3 {
+  width: 100%;
+  background-color: var(--fristcolor);
+  }
+.container-3 {
+    width:65%;
+  padding: 20px 0 ;
+  margin: auto;
+  text-align: center;
+}
+@media (max-width: 1600px) {
+  .container-3 {
+    padding: 20px 0;
+    width: 90%;
+    margin: auto;
+    height:calc(100vh + 400px);
+  }
+  
+}
+.section-3 header h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  text-align: center;
+  color: var(--secondcolor);
+  font-size: 45px;
+  line-height: 40px;
+}
+.section-3 header p {
+  margin: 0;
+  padding: 15px 0 0 0;
+  line-height: 1.8;
+  font-size: 14px;
+  text-align: center;
+  color: var(--secondcolor);
+}
+.Services-cardes {
+  width: 90%;
+  margin: 60px auto ;
+}
+.section-3 .card-Services {
+  width: calc((100% - 80px) / 3);
+  float: left;
+  margin-left: 20px;
+  padding: 30px;
+  border:#cecfd7 solid 2px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  margin-bottom: 20px;
+  transition-duration:2s;
+}
+.section-3 .card-Services:hover { 
+    background: var(--hovercolor);
+    transition: ease-in all 0.5s;
+    cursor: pointer;
+}
+.claer {
+  clear: both;
+}
+.section-3 .card-Services .image {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: var(--secondcolor);
+  position: relative;
+  margin: auto;
+}
+.section-3 .card-Services .image img {
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.card-Services h3 {
+  color: var(--secondcolor);
+  padding: 20px 0;
+}
+.card-Services p {
+  color: var(--secondcolor);
+  line-height: 1.6;
+}
+.container-3 a
+{    
+ padding: 10px 40px;
+ background-color: var(--secondcolor);
+ text-decoration: none;
+ color: var(--fristcolor);
+ display: inline-block;
+ margin-top:35px;
+}
+.container-3 a:hover{
+background: var(--hovercolor);
+    color: var(--secondcolor);
+}
+/* ========================== End Section-3   =========================== */
+/* ========================== Start Section-4 =========================== */
+.section-4 
+{
+    width: 100%;
+    background-color: var(--secondcolor);
+   
+    
+  }
+  .container-4 {
+    padding: 70px 0 ;
+    text-align: center;
+    width:65%;
+    margin:20px auto;
+    height: 75vh;
+  }
+  @media (max-width: 1600px) {
+    .container-4 {
+      padding: 20px 0;
+      width: 90%;
+      margin: auto;
+      height:calc(100vh + 100px);
+    }
+    
+  }
+  .title-page
+  {
+    width:90%;
+    margin:auto;
+    text-align:center;
+   
+  }
+  .section-4 .container-4 h2
+  {
+    font-family: 'Poppins', sans-serif;
+      font-size:45px;
+      padding-bottom:15px;
+      color: var(--fristcolor);
+      line-height: 40px;
+      font-weight: bold;
+    
+  }
+
+.section-4 .container-4 p
+{
+color: #161414;
+font-size:15px;
+line-height: 24px;
+ font-weight: 200;
+  }
+.features-cardes-container
+{
+  width: 90%;
+  margin: 60px auto ; 
+
+}
+.features-card{
+width: calc((100% - 80px) / 3);
+  float: left;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+.fuger
+{
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition-duration:1s;
+    box-shadow: #ddd 0px 0px 10px;
+    margin-bottom: 30px;
+}
+.fuger:hover
+{
+    transition: ease-in all 0.1s;
+    transform: scale(1.1);
+}
+.fuger h3
+{
+    padding:20px 0;
+}
+
+.container-4 .features-cardes-container a
+{    
+ padding: 10px 40px;
+ background-color: black;
+ text-decoration: none;
+ color: var(--secondcolor); 
+ display: inline-block;
+}
+.container-4 .features-cardes-container a:hover
+{
+background: var(--hovercolor);
+color: var(--secondcolor);
+cursor: pointer;
+}
+/* ======================== End section-4 ========================== */
+
+/* ======================== Start section-5 ========================== */
+.section-5 
+{
+    width: 100%;
+    background-color: var(--secondcolor); 
+}
+.container-5 {
+    position: relative;
+   text-align: center;
+    width:100%;
+    height:100vh;
+  }
+   
+  
+  .section-5 .contact
+  {
+    position:absolute;
+    text-align: center;
+    width:100%;
+    background-color:var(--fristcolor);
+    top:40%;
+    height:500px;
+    padding-top:40px;
+     }
+  .contact-info
+  {
+      position:absolute ;
+      bottom:0;
+      left:50%;
+      color:var(--secondcolor);
+      transform: translate(-50%);
+      -webkit-transform: translate(-50%);
+      -moz-transform: translate(-50%);
+      -ms-transform: translate(-50%);
+      -o-transform: translate(-50%);
+}
+.contact-info h2{
+    font-size:45px;
+    font-weight: bold;
+    padding-top:30px;
+    line-height: 30px;
+}
+.contact-info h3{
+    font-size:30px;
+    font-weight: bold;
+    padding:30px 0 10px;
+}
+.contact-info p{
+    font-size:17px;
+    line-height: 30px;
+    color: var(--secondcolor);
+    padding: 0 130px 40px ;
+}
+.form-regestration
+{
+    position:absolute;
+    width:30%;
+    background-color:var(--fristcolor);
+    padding:40px 40px 0 40px;
+    top: 17%;
+    left:50%;
+    transform:translate(-50%);
+    -webkit-transform:translate(-50%);
+    -moz-transform:translate(-50%);
+    -ms-transform:translate(-50%);
+    -o-transform:translate(-50%);
+    border-radius:30px;
+}
+.form-regestration input:not(:last-child)
+{
+    outline: none;
+    border: var(--secondcolor) solid 1px;
+    padding: 0px 19px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    width: 100%;
+    height: 52px;
+    background: var(--secondcolor);
+    color: #999999;
+    font-size: 16px;
+}
+.form-regestration textarea
+{
+    width:100%;
+    height:100px;
+    outline: none;
+    padding:25px;
+    border-radius: 15px;
+}
+.form-regestration input:last-child
+{
+    font-size: 16px;
+    transition: ease-in all 0.5s;
+    background-color: var(--secondcolor);
+    color: #ef4259;
+    padding: 12px 70px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 30px;
+    margin-top: 25px;
+    cursor:pointer;
+}
+.footer
+{
+  width:100%;
+  height:50px;
+  position:relative;
+  color:whitesmoke;
+}
+.copyright
+{
+  position:absolute;
+  text-align: center;
+  top:50%;
+  left:50%;
+  transform:translate(-50% ,-50%) ;
+  -webkit-transform:translate(-50% ,-50%) ;
+  -moz-transform:translate(-50% ,-50%) ;
+  -ms-transform:translate(-50% ,-50%) ;
+  -o-transform:translate(-50% ,-50%) ;
+}
+.copyright p{
+  color: #1e1e1e;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: 'Poppins', sans-serif;
+
+}
